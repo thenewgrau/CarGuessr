@@ -1,0 +1,107 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Comic Neue", cursive;
+}
+
+#cuatroDesarrolladores
+{
+    padding: 1% 0% 0% 1%;
+    width: 150px;
+    height: 150px;
+}
+
+#central
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin-left: 550px;
+}
+
+#carroAdivinhar
+{
+    width: 650px;
+    height: 450px;
+}
+
+#inputAdivinhar
+{
+    width: 660px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+#inputAdivinhar::placeholder
+{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#escolhaBotoes
+{
+    display: flex;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+#desistirBotao, #confirmarBotao
+{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#desistirBotao
+{
+    background-color: red;
+}
+
+#confirmarBotao
+{
+    background-color: greenyellow;
+}
+
+#uniaoDasDivs
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#painelDicas
+{
+    width: 400px;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 1% 1% 1% 1%;
+    margin-right: 20px;
+}
+
+#tituloIcone
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dicaImagem
+{
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+#textoDica
+{
+    margin-left: 150px;
+}

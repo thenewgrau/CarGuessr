@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="fotos">
+    <file>telaPrincipal/carrosGuessr.png</file>
+    <file>telaPrincipal/cuatroDesarrolladores.png</file>
+    <file>telaPrincipal/planoFundoLambos.png</file>
+  </qresource>
+</RCC>
