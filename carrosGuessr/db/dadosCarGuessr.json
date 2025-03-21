@@ -1,513 +1,410 @@
 [
-    {
-      "modelo": "Chevrolet Tracker",
-      "ano": 2021,
-      "motor": "1.2",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 1300,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Honda HR-V",
-      "ano": 2020,
-      "motor": "1.8",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1350,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Ford EcoSport",
-      "ano": 2019,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 1500,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Fiat Toro",
-      "ano": 2022,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1700,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Peugeot 3008",
-      "ano": 2021,
-      "motor": "1.6",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 1450,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Mercedes-Benz GLA",
-      "ano": 2023,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 250.0,
-      "peso": 1550,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Volkswagen T-Cross",
-      "ano": 2021,
-      "motor": "1.4",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1300,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Toyota RAV4",
-      "ano": 2022,
-      "motor": "2.5",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 1600,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Hyundai Creta",
-      "ano": 2021,
-      "motor": "1.6",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 1400,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Jeep Renegade",
-      "ano": 2020,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1500,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Nissan Frontier",
-      "ano": 2023,
-      "motor": "2.3",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1800,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "BMW X1",
-      "ano": 2022,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 240.0,
-      "peso": 1550,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Mazda CX-5",
-      "ano": 2021,
-      "motor": "2.5",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1600,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Kia Seltos",
-      "ano": 2020,
-      "motor": "1.6",
-      "portas": 4,
-      "potencia": 205.0,
-      "peso": 1450,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Renault Kwid",
-      "ano": 2019,
-      "motor": "1.0",
-      "portas": 4,
-      "potencia": 160.0,
-      "peso": 800,
-      "tracao": "Dianteira",
-      "lugares": 3
-    },
-    {
-      "modelo": "Toyota Corolla Cross",
-      "ano": 2022,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 1400,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Volkswagen Nivus",
-      "ano": 2020,
-      "motor": "1.0",
-      "portas": 4,
-      "potencia": 190.0,
-      "peso": 1200,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Ford Ranger",
-      "ano": 2021,
-      "motor": "3.2",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1900,
-      "tracao": "4x4",
-      "lugares": 5
-    },
-    {
-      "modelo": "Chevrolet Spin",
-      "ano": 2020,
-      "motor": "1.8",
-      "portas": 4,
-      "potencia": 185.0,
-      "peso": 1200,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Honda Civic",
-      "ano": 2021,
-      "motor": "1.5",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1300,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Chrysler Pacifica",
-      "ano": 2022,
-      "motor": "3.6",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 2200,
-      "tracao": "Dianteira",
-      "lugares": 6
-    },
-    {
-      "modelo": "Ram 1500",
-      "ano": 2023,
-      "motor": "5.7",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 2300,
-      "tracao": "4x4",
-      "lugares": 8
-    },
-    {
-      "modelo": "Dodge Charger",
-      "ano": 2021,
-      "motor": "6.2",
-      "portas": 4,
-      "potencia": 270.0,
-      "peso": 1800,
-      "tracao": "Traseira",
-      "lugares": 8
-    },
-    {
-      "modelo": "Chevrolet Camaro",
-      "ano": 2022,
-      "motor": "6.2",
-      "portas": 2,
-      "potencia": 250.0,
-      "peso": 1600,
-      "tracao": "Traseira",
-      "lugares": 8
-    },
-    {
-      "modelo": "Ford Mustang",
-      "ano": 2022,
-      "motor": "5.0",
-      "portas": 2,
-      "potencia": 260.0,
-      "peso": 1600,
-      "tracao": "Traseira",
-      "lugares": 8
-    },
-    {
-      "modelo": "Nissan 370Z",
-      "ano": 2021,
-      "motor": "3.7",
-      "portas": 2,
-      "potencia": 250.0,
-      "peso": 1500,
-      "tracao": "Traseira",
-      "lugares": 6
-    },
-    {
-      "modelo": "Porsche Cayenne",
-      "ano": 2022,
-      "motor": "3.0",
-      "portas": 4,
-      "potencia": 250.0,
-      "peso": 2000,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Audi Q5",
-      "ano": 2022,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 240.0,
-      "peso": 1600,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "BMW X5",
-      "ano": 2021,
-      "motor": "3.0",
-      "portas": 4,
-      "potencia": 250.0,
-      "peso": 1800,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Land Rover Discovery",
-      "ano": 2023,
-      "motor": "3.0",
-      "portas": 4,
-      "potencia": 230.0,
-      "peso": 2200,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Volvo XC60",
-      "ano": 2021,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 1700,
-      "tracao": "4x4",
-      "lugares": 4
-    },
-    {
-      "modelo": "Lexus RX",
-      "ano": 2022,
-      "motor": "3.5",
-      "portas": 4,
-      "potencia": 240.0,
-      "peso": 2000,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Toyota Land Cruiser",
-      "ano": 2021,
-      "motor": "4.0",
-      "portas": 4,
-      "potencia": 230.0,
-      "peso": 2500,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Ford F-150",
-      "ano": 2022,
-      "motor": "5.0",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 2200,
-      "tracao": "4x4",
-      "lugares": 8
-    },
-    {
-      "modelo": "Chevrolet Silverado",
-      "ano": 2023,
-      "motor": "6.2",
-      "portas": 4,
-      "potencia": 230.0,
-      "peso": 2400,
-      "tracao": "4x4",
-      "lugares": 8
-    },
-    {
-      "modelo": "GMC Sierra",
-      "ano": 2022,
-      "motor": "5.3",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 2300,
-      "tracao": "4x4",
-      "lugares": 8
-    },
-    {
-      "modelo": "Ram 2500",
-      "ano": 2023,
-      "motor": "6.7",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 2800,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Chevrolet Silverado",
-      "ano": 2021,
-      "motor": "4.3",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 2400,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Ford Bronco",
-      "ano": 2023,
-      "motor": "2.7",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 2000,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Hyundai Tucson",
-      "ano": 2022,
-      "motor": "2.0",
-      "portas": 4,
-      "potencia": 200.0,
-      "peso": 1500,
-      "tracao": "Dianteira",
-      "lugares": 4
-    },
-    {
-      "modelo": "Kia Sorento",
-      "ano": 2021,
-      "motor": "3.5",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 1800,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Jeep Gladiator",
-      "ano": 2020,
-      "motor": "3.6",
-      "portas": 4,
-      "potencia": 210.0,
-      "peso": 2200,
-      "tracao": "4x4",
-      "lugares": 6
-    },
-    {
-      "modelo": "Chrysler 300",
-      "ano": 2022,
-      "motor": "3.6",
-      "portas": 4,
-      "potencia": 220.0,
-      "peso": 1800,
-      "tracao": "Dianteira",
-      "lugares": 6
-    },
-    {
-      "modelo": "BMW M4",
-      "ano": 2022,
-      "motor": "3.0",
-      "portas": 2,
-      "potencia": 280.0,
-      "peso": 1600,
-      "tracao": "Traseira",
-      "lugares": 6
-    },
-    {
-      "modelo": "Audi RS7",
-      "ano": 2023,
-      "motor": "4.0",
-      "portas": 4,
-      "potencia": 300.0,
-      "peso": 1900,
-      "tracao": "Dianteira",
-      "lugares": 8
-    },
-    {
-      "modelo": "Mercedes-AMG G63",
-      "ano": 2023,
-      "motor": "4.0",
-      "portas": 4,
-      "potencia": 250.0,
-      "peso": 2500,
-      "tracao": "4x4",
-      "lugares": 8
-    },
-    {
-      "modelo": "Tesla Model X",
-      "ano": 2022,
-      "motor": "Elétrico",
-      "portas": 4,
-      "potencia": 250.0,
-      "peso": 2300,
-      "tracao": "Dianteira",
-      "lugares": 0
-    },
-    {
-      "modelo": "Rivian R1T",
-      "ano": 2023,
-      "motor": "Elétrico",
-      "portas": 4,
-      "potencia": 240.0,
-      "peso": 2600,
-      "tracao": "4x4",
-      "lugares": 0
-    },
-    {
-      "modelo": "Lucid Air",
-      "ano": 2023,
-      "motor": "Elétrico",
-      "portas": 4,
-      "potencia": 260.0,
-      "peso": 2200,
-      "tracao": "Dianteira",
-      "lugares": 0
-    },
-    {
-      "modelo": "Ford Mustang Mach-E",
-      "ano": 2022,
-      "motor": "Elétrico",
-      "portas": 4,
-      "potencia": 230.0,
-      "peso": 2100,
-      "tracao": "Dianteira",
-      "lugares": 0
-    },
-    {
-      "modelo": "BMW iX",
-      "ano": 2023,
-      "motor": "Elétrico",
-      "portas": 4,
-      "potencia": 250.0,
-      "peso": 2400,
-      "tracao": "4x4",
-      "lugares": 0
-    }
+  {
+    "modelo": "Chevrolet Tracker",
+    "ano": 2021,
+    "motor": "1.2",
+    "potencia": 200.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Honda HR-V",
+    "ano": 2020,
+    "motor": "1.8",
+    "potencia": 210.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ford EcoSport",
+    "ano": 2019,
+    "motor": "2.0",
+    "potencia": 200.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Fiat Toro",
+    "ano": 2022,
+    "motor": "2.0",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Peugeot 3008",
+    "ano": 2021,
+    "motor": "1.6",
+    "potencia": 220.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Mercedes-Benz GLA",
+    "ano": 2023,
+    "motor": "2.0",
+    "potencia": 250.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Volkswagen T-Cross",
+    "ano": 2021,
+    "motor": "1.4",
+    "potencia": 210.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Toyota RAV4",
+    "ano": 2022,
+    "motor": "2.5",
+    "potencia": 220.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Hyundai Creta",
+    "ano": 2021,
+    "motor": "1.6",
+    "potencia": 200.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Jeep Renegade",
+    "ano": 2020,
+    "motor": "2.0",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Nissan Frontier",
+    "ano": 2023,
+    "motor": "2.3",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "BMW X1",
+    "ano": 2022,
+    "motor": "2.0",
+    "potencia": 240.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Mazda CX-5",
+    "ano": 2021,
+    "motor": "2.5",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Kia Seltos",
+    "ano": 2020,
+    "motor": "1.6",
+    "potencia": 205.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Renault Kwid",
+    "ano": 2019,
+    "motor": "1.0",
+    "potencia": 160.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Toyota Corolla Cross",
+    "ano": 2022,
+    "motor": "2.0",
+    "potencia": 200.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Volkswagen Nivus",
+    "ano": 2020,
+    "motor": "1.0",
+    "potencia": 190.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ford Ranger",
+    "ano": 2021,
+    "motor": "3.2",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Chevrolet Spin",
+    "ano": 2020,
+    "motor": "1.8",
+    "potencia": 185.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Honda Civic",
+    "ano": 2021,
+    "motor": "1.5",
+    "potencia": 210.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Chrysler Pacifica",
+    "ano": 2022,
+    "motor": "3.6",
+    "potencia": 200.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ram 1500",
+    "ano": 2023,
+    "motor": "5.7",
+    "potencia": 220.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Dodge Charger",
+    "ano": 2021,
+    "motor": "6.2",
+    "potencia": 270.0,
+    "tracao": "Traseira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Chevrolet Camaro",
+    "ano": 2022,
+    "motor": "6.2",
+    "potencia": 250.0,
+    "tracao": "Traseira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ford Mustang",
+    "ano": 2022,
+    "motor": "5.0",
+    "potencia": 260.0,
+    "tracao": "Traseira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Nissan 370Z",
+    "ano": 2021,
+    "motor": "3.7",
+    "potencia": 250.0,
+    "tracao": "Traseira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Porsche Cayenne",
+    "ano": 2022,
+    "motor": "3.0",
+    "potencia": 250.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Audi Q5",
+    "ano": 2022,
+    "motor": "2.0",
+    "potencia": 240.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "BMW X5",
+    "ano": 2021,
+    "motor": "3.0",
+    "potencia": 250.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Land Rover Discovery",
+    "ano": 2023,
+    "motor": "3.0",
+    "potencia": 230.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Volvo XC60",
+    "ano": 2021,
+    "motor": "2.0",
+    "potencia": 220.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Lexus RX",
+    "ano": 2022,
+    "motor": "3.5",
+    "potencia": 240.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Toyota Land Cruiser",
+    "ano": 2021,
+    "motor": "4.0",
+    "potencia": 230.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ford F-150",
+    "ano": 2022,
+    "motor": "5.0",
+    "potencia": 220.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Chevrolet Silverado",
+    "ano": 2023,
+    "motor": "6.2",
+    "potencia": 230.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "GMC Sierra",
+    "ano": 2022,
+    "motor": "5.3",
+    "potencia": 220.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ram 2500",
+    "ano": 2023,
+    "motor": "6.7",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Chevrolet Silverado",
+    "ano": 2021,
+    "motor": "4.3",
+    "potencia": 200.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ford Bronco",
+    "ano": 2023,
+    "motor": "2.7",
+    "potencia": 220.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Hyundai Tucson",
+    "ano": 2022,
+    "motor": "2.0",
+    "potencia": 200.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Kia Sorento",
+    "ano": 2021,
+    "motor": "3.5",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Jeep Gladiator",
+    "ano": 2020,
+    "motor": "3.6",
+    "potencia": 210.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Chrysler 300",
+    "ano": 2022,
+    "motor": "3.6",
+    "potencia": 220.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "BMW M4",
+    "ano": 2022,
+    "motor": "3.0",
+    "potencia": 280.0,
+    "tracao": "Traseira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Audi RS7",
+    "ano": 2023,
+    "motor": "4.0",
+    "potencia": 300.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Mercedes-AMG G63",
+    "ano": 2023,
+    "motor": "4.0",
+    "potencia": 250.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Tesla Model X",
+    "ano": 2022,
+    "motor": "Elétrico",
+    "potencia": 250.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Rivian R1T",
+    "ano": 2023,
+    "motor": "Elétrico",
+    "potencia": 240.0,
+    "tracao": "4x4",
+    "imagem": ""
+  },
+  {
+    "modelo": "Lucid Air",
+    "ano": 2023,
+    "motor": "Elétrico",
+    "potencia": 260.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "Ford Mustang Mach-E",
+    "ano": 2022,
+    "motor": "Elétrico",
+    "potencia": 230.0,
+    "tracao": "Dianteira",
+    "imagem": ""
+  },
+  {
+    "modelo": "BMW iX",
+    "ano": 2023,
+    "motor": "Elétrico",
+    "potencia": 250.0,
+    "tracao": "4x4",
+    "imagem": ""
+  }
 ]
-  
