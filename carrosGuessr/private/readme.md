@@ -1,1 +1,0 @@
-diretorio private para arquivos especiais

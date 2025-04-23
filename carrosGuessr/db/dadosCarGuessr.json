@@ -5,7 +5,7 @@
     "motor": "1.2",
     "potencia": 200.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Chevrolet-Tracker.png"
   },
   {
     "modelo": "Honda HR-V",
@@ -13,7 +13,7 @@
     "motor": "1.8",
     "potencia": 210.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Honda-HR-V.png"
   },
   {
     "modelo": "Ford EcoSport",
@@ -21,7 +21,7 @@
     "motor": "2.0",
     "potencia": 200.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Ford-Ecosport.png"
   },
   {
     "modelo": "Fiat Toro",
@@ -29,7 +29,7 @@
     "motor": "2.0",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Fiat-Toro.png"
   },
   {
     "modelo": "Peugeot 3008",
@@ -37,7 +37,7 @@
     "motor": "1.6",
     "potencia": 220.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Peugeot-2008.png"
   },
   {
     "modelo": "Mercedes-Benz GLA",
@@ -45,7 +45,7 @@
     "motor": "2.0",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Mercedes-Benz.png"
   },
   {
     "modelo": "Volkswagen T-Cross",
@@ -53,7 +53,7 @@
     "motor": "1.4",
     "potencia": 210.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Volkswagen-T-Cross.png"
   },
   {
     "modelo": "Toyota RAV4",
@@ -61,7 +61,7 @@
     "motor": "2.5",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Toyota-Rav4.png"
   },
   {
     "modelo": "Hyundai Creta",
@@ -69,7 +69,7 @@
     "motor": "1.6",
     "potencia": 200.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Hyundai-Creta.png"
   },
   {
     "modelo": "Jeep Renegade",
@@ -77,7 +77,7 @@
     "motor": "2.0",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Jeep-Renegade.png"
   },
   {
     "modelo": "Nissan Frontier",
@@ -85,7 +85,7 @@
     "motor": "2.3",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Nissan-Frontier.png"
   },
   {
     "modelo": "BMW X1",
@@ -93,7 +93,7 @@
     "motor": "2.0",
     "potencia": 240.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/BMW-X1.png"
   },
   {
     "modelo": "Mazda CX-5",
@@ -101,7 +101,7 @@
     "motor": "2.5",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Mazda-CX-5.png"
   },
   {
     "modelo": "Kia Seltos",
@@ -109,7 +109,7 @@
     "motor": "1.6",
     "potencia": 205.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Kia-Seltos.png"
   },
   {
     "modelo": "Renault Kwid",
@@ -117,7 +117,7 @@
     "motor": "1.0",
     "potencia": 160.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Renault-Kwid.png"
   },
   {
     "modelo": "Toyota Corolla Cross",
@@ -125,7 +125,7 @@
     "motor": "2.0",
     "potencia": 200.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Toyota-Corolla-Cross.png"
   },
   {
     "modelo": "Volkswagen Nivus",
@@ -133,7 +133,7 @@
     "motor": "1.0",
     "potencia": 190.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Volkswagen-Nivus.png"
   },
   {
     "modelo": "Ford Ranger",
@@ -141,7 +141,7 @@
     "motor": "3.2",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Ford-Ranger.png"
   },
   {
     "modelo": "Chevrolet Spin",
@@ -149,7 +149,7 @@
     "motor": "1.8",
     "potencia": 185.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Chevrolet-Spin.png"
   },
   {
     "modelo": "Honda Civic",
@@ -157,7 +157,7 @@
     "motor": "1.5",
     "potencia": 210.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Honda-Civic.png"
   },
   {
     "modelo": "Chrysler Pacifica",
@@ -165,7 +165,7 @@
     "motor": "3.6",
     "potencia": 200.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Chrysler-Pacifica.png"
   },
   {
     "modelo": "Ram 1500",
@@ -173,7 +173,7 @@
     "motor": "5.7",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Dodge Charger",
@@ -181,7 +181,7 @@
     "motor": "6.2",
     "potencia": 270.0,
     "tracao": "Traseira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Chevrolet Camaro",
@@ -189,7 +189,7 @@
     "motor": "6.2",
     "potencia": 250.0,
     "tracao": "Traseira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Ford Mustang",
@@ -197,7 +197,7 @@
     "motor": "5.0",
     "potencia": 260.0,
     "tracao": "Traseira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Nissan 370Z",
@@ -205,7 +205,7 @@
     "motor": "3.7",
     "potencia": 250.0,
     "tracao": "Traseira",
-    "imagem": ""
+    "imagem": "./../public/images/Nissan-370z.png"
   },
   {
     "modelo": "Porsche Cayenne",
@@ -213,7 +213,7 @@
     "motor": "3.0",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Porsche-Cayenne.png"
   },
   {
     "modelo": "Audi Q5",
@@ -221,7 +221,7 @@
     "motor": "2.0",
     "potencia": 240.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Audi-Q5.png"
   },
   {
     "modelo": "BMW X5",
@@ -229,7 +229,7 @@
     "motor": "3.0",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/BMW-X5.png"
   },
   {
     "modelo": "Land Rover Discovery",
@@ -237,7 +237,7 @@
     "motor": "3.0",
     "potencia": 230.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Land-Rover-Discovery.png"
   },
   {
     "modelo": "Volvo XC60",
@@ -245,7 +245,7 @@
     "motor": "2.0",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Volvo-XC60.png"
   },
   {
     "modelo": "Lexus RX",
@@ -253,7 +253,7 @@
     "motor": "3.5",
     "potencia": 240.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Lexus-RX.png"
   },
   {
     "modelo": "Toyota Land Cruiser",
@@ -261,7 +261,7 @@
     "motor": "4.0",
     "potencia": 230.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Toyota-Land-Cruiser.png"
   },
   {
     "modelo": "Ford F-150",
@@ -269,7 +269,7 @@
     "motor": "5.0",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Ford-F-150.png"
   },
   {
     "modelo": "Chevrolet Silverado",
@@ -277,7 +277,7 @@
     "motor": "6.2",
     "potencia": 230.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Chevrolet-Silverado.png"
   },
   {
     "modelo": "GMC Sierra",
@@ -285,7 +285,7 @@
     "motor": "5.3",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/GMC-Sierra.png"
   },
   {
     "modelo": "Ram 2500",
@@ -293,15 +293,7 @@
     "motor": "6.7",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
-  },
-  {
-    "modelo": "Chevrolet Silverado",
-    "ano": 2021,
-    "motor": "4.3",
-    "potencia": 200.0,
-    "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Ram-2500.png"
   },
   {
     "modelo": "Ford Bronco",
@@ -309,7 +301,7 @@
     "motor": "2.7",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Ford-Bronco.png"
   },
   {
     "modelo": "Hyundai Tucson",
@@ -317,7 +309,7 @@
     "motor": "2.0",
     "potencia": 200.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/Hyundai-Tucson.png"
   },
   {
     "modelo": "Kia Sorento",
@@ -325,7 +317,7 @@
     "motor": "3.5",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/Kia-Sorento.png"
   },
   {
     "modelo": "Jeep Gladiator",
@@ -333,7 +325,7 @@
     "motor": "3.6",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Chrysler 300",
@@ -341,7 +333,7 @@
     "motor": "3.6",
     "potencia": 220.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "BMW M4",
@@ -349,7 +341,7 @@
     "motor": "3.0",
     "potencia": 280.0,
     "tracao": "Traseira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Audi RS7",
@@ -357,7 +349,7 @@
     "motor": "4.0",
     "potencia": 300.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Mercedes-AMG G63",
@@ -365,7 +357,7 @@
     "motor": "4.0",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Tesla Model X",
@@ -373,7 +365,7 @@
     "motor": "Elétrico",
     "potencia": 250.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Rivian R1T",
@@ -381,7 +373,7 @@
     "motor": "Elétrico",
     "potencia": 240.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Lucid Air",
@@ -389,7 +381,7 @@
     "motor": "Elétrico",
     "potencia": 260.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "Ford Mustang Mach-E",
@@ -397,7 +389,7 @@
     "motor": "Elétrico",
     "potencia": 230.0,
     "tracao": "Dianteira",
-    "imagem": ""
+    "imagem": "./../public/images/"
   },
   {
     "modelo": "BMW iX",
@@ -405,6 +397,6 @@
     "motor": "Elétrico",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": ""
+    "imagem": "./../public/images/"
   }
 ]

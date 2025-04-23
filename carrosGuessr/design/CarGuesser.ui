@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>920</width>
-    <height>711</height>
+    <height>706</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -74,7 +74,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Botofresco">
+   <widget class="QPushButton" name="botaoJogar">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -90,12 +90,15 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-    border-radius: 25px;  
+    border-radius: 8px;  
     padding: 10px; 
-    background-color: #ffffff;
-    color: black;
+    background-color: #gray;
+    color: white;
 
 }</string>
     </property>
@@ -106,17 +109,7 @@
    <zorder>Fundo</zorder>
    <zorder>Equipe</zorder>
    <zorder>Logo</zorder>
-   <zorder>Botofresco</zorder>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>920</width>
-     <height>21</height>
-    </rect>
-   </property>
+   <zorder>botaoJogar</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

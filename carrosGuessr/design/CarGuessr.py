@@ -14,26 +14,49 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(920, 711)
+        MainWindow.resize(920, 706)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.Logo = QtWidgets.QLabel(self.centralwidget)
-        self.Logo.setGeometry(QtCore.QRect(290, 140, 331, 261))
+        self.Logo.setGeometry(QtCore.QRect(290, 140, 331, 301))
         self.Logo.setText("")
+        self.Logo.setPixmap(QtGui.QPixmap("../public/images/LogoCarGuesser.png"))
+        self.Logo.setScaledContents(True)
         self.Logo.setObjectName("Logo")
         self.Fundo = QtWidgets.QLabel(self.centralwidget)
         self.Fundo.setGeometry(QtCore.QRect(-10, -30, 941, 721))
+        self.Fundo.setStyleSheet("QLabel{background-color: #555555;}")
         self.Fundo.setText("")
+        self.Fundo.setPixmap(QtGui.QPixmap("../public/images/FundoCarGuesser.png"))
+        self.Fundo.setScaledContents(True)
         self.Fundo.setObjectName("Fundo")
         self.Equipe = QtWidgets.QLabel(self.centralwidget)
-        self.Equipe.setGeometry(QtCore.QRect(20, 10, 121, 111))
+        self.Equipe.setGeometry(QtCore.QRect(20, 10, 181, 161))
         self.Equipe.setText("")
+        self.Equipe.setPixmap(QtGui.QPixmap("../public/images/LogoEquipe.png"))
+        self.Equipe.setScaledContents(True)
         self.Equipe.setObjectName("Equipe")
+        self.botaoJogar = QtWidgets.QPushButton(self.centralwidget)
+        self.botaoJogar.setGeometry(QtCore.QRect(400, 460, 121, 41))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.botaoJogar.setFont(font)
+        self.botaoJogar.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.botaoJogar.setStyleSheet("QPushButton {\n"
+"    border-radius: 8px;  \n"
+"    padding: 10px; \n"
+"    background-color: #gray;\n"
+"    color: white;\n"
+"\n"
+"}")
+        self.botaoJogar.setObjectName("botaoJogar")
+        self.Fundo.raise_()
+        self.Equipe.raise_()
+        self.Logo.raise_()
+        self.botaoJogar.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 920, 21))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
@@ -44,6 +67,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.botaoJogar.setText(_translate("MainWindow", "Jogar"))
 
 
 if __name__ == "__main__":
