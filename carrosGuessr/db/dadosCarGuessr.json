@@ -173,7 +173,7 @@
     "motor": "5.7",
     "potencia": 220.0,
     "tracao": "4x4",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Ram-1500.png"
   },
   {
     "modelo": "Dodge Charger",
@@ -181,7 +181,7 @@
     "motor": "6.2",
     "potencia": 270.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Dodge-Charger.jpg"
   },
   {
     "modelo": "Chevrolet Camaro",
@@ -189,7 +189,7 @@
     "motor": "6.2",
     "potencia": 250.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Chevrolet-Camaro.png"
   },
   {
     "modelo": "Ford Mustang",
@@ -197,7 +197,7 @@
     "motor": "5.0",
     "potencia": 260.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Ford-Mustang.png"
   },
   {
     "modelo": "Nissan 370Z",
@@ -325,7 +325,7 @@
     "motor": "3.6",
     "potencia": 210.0,
     "tracao": "4x4",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Jeep-Gladiator.png"
   },
   {
     "modelo": "Chrysler 300",
@@ -333,7 +333,7 @@
     "motor": "3.6",
     "potencia": 220.0,
     "tracao": "Dianteira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Chrysler-300.png"
   },
   {
     "modelo": "BMW M4",
@@ -341,7 +341,7 @@
     "motor": "3.0",
     "potencia": 280.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/BMW=M4.png"
   },
   {
     "modelo": "Audi RS7",
@@ -349,7 +349,7 @@
     "motor": "4.0",
     "potencia": 300.0,
     "tracao": "Dianteira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Audi-RS7.png"
   },
   {
     "modelo": "Mercedes-AMG G63",
@@ -357,7 +357,7 @@
     "motor": "4.0",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Mercedes-AMG-G63"
   },
   {
     "modelo": "Tesla Model X",
@@ -365,7 +365,7 @@
     "motor": "Elétrico",
     "potencia": 250.0,
     "tracao": "Dianteira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Tesla-Model-X.png"
   },
   {
     "modelo": "Rivian R1T",
@@ -373,7 +373,7 @@
     "motor": "Elétrico",
     "potencia": 240.0,
     "tracao": "4x4",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Rivian-R1T.png"
   },
   {
     "modelo": "Lucid Air",
@@ -381,7 +381,7 @@
     "motor": "Elétrico",
     "potencia": 260.0,
     "tracao": "Dianteira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Lucid-Air.png"
   },
   {
     "modelo": "Ford Mustang Mach-E",
@@ -389,7 +389,7 @@
     "motor": "Elétrico",
     "potencia": 230.0,
     "tracao": "Dianteira",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/Ford-Mustang-Mach-E.png"
   },
   {
     "modelo": "BMW iX",
@@ -397,6 +397,6 @@
     "motor": "Elétrico",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": "./../public/images/"
+    "imagem": "./../public/images/BMW-iX.png"
   }
 ]
