@@ -32,7 +32,7 @@
     "imagem": "./../public/images/Fiat-Toro.png"
   },
   {
-    "modelo": "Peugeot 3008",
+    "modelo": "Peugeot 2008",
     "ano": 2021,
     "motor": "1.6",
     "potencia": 220.0,
@@ -45,7 +45,7 @@
     "motor": "2.0",
     "potencia": 250.0,
     "tracao": "4x4",
-    "imagem": "./../public/images/Mercedes-Benz.png"
+    "imagem": "./../public/images/Mercedes-Benz-GLA.png"
   },
   {
     "modelo": "Volkswagen T-Cross",
@@ -205,7 +205,7 @@
     "motor": "3.7",
     "potencia": 250.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/Nissan-370z.png"
+    "imagem": "./../public/images/Nissan-370Z.png"
   },
   {
     "modelo": "Porsche Cayenne",
