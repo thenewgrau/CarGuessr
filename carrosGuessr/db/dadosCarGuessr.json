@@ -341,7 +341,7 @@
     "motor": "3.0",
     "potencia": 280.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/BMW=M4.png"
+    "imagem": "./../public/images/BMW-M4.png"
   },
   {
     "modelo": "Audi RS7",

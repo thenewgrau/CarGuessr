@@ -31,7 +31,7 @@ background-color: white;
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{
-background-color: #A3A3A3; 
+background-color: #93b4db; 
 
 }</string>
     </property>
@@ -53,7 +53,7 @@ background-color: #A3A3A3;
 font-size: 16px;
 font: bold;
 font-family: Comic Neue;
-
+color: black
 
 }</string>
     </property>
@@ -308,6 +308,8 @@ border: none;
     <property name="styleSheet">
      <string notr="true">QLabel{
 font-size: 16px;
+font: bold;
+font-family: Comic Neue;
 
 }</string>
     </property>
@@ -333,6 +335,8 @@ font-size: 16px;
        <property name="styleSheet">
         <string notr="true">QLabel{
 font-size: 14px;
+font: bold;
+font-family: Comic Neue;
 
 }</string>
        </property>
@@ -346,6 +350,8 @@ font-size: 14px;
        <property name="styleSheet">
         <string notr="true">QLabel{
 font-size: 14px;
+font: bold;
+font-family: Comic Neue;
 
 }</string>
        </property>
@@ -359,6 +365,8 @@ font-size: 14px;
        <property name="styleSheet">
         <string notr="true">QLabel{
 font-size: 14px;
+font: bold;
+font-family: Comic Neue;
 
 }</string>
        </property>
@@ -372,6 +380,8 @@ font-size: 14px;
        <property name="styleSheet">
         <string notr="true">QLabel{
 font-size: 14px;
+font: bold;
+font-family: Comic Neue;
 
 }</string>
        </property>
@@ -403,6 +413,53 @@ color: none;
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelAcabouDicas">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>500</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-size: 14px;
+
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="acertouErrou">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>500</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-size: 16px;
+font: bold;
+font-family: Comic Neue;
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>

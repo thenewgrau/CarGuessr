@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
         self.backgroundHeader = QtWidgets.QLabel(self.centralwidget)
         self.backgroundHeader.setGeometry(QtCore.QRect(-20, 0, 831, 111))
         self.backgroundHeader.setStyleSheet("QLabel{\n"
-"background-color: #A3A3A3; \n"
+"background-color: #93b4db; \n"
 "\n"
 "}")
         self.backgroundHeader.setText("")
@@ -35,7 +35,7 @@ class Ui_MainWindow(object):
 "font-size: 16px;\n"
 "font: bold;\n"
 "font-family: Comic Neue;\n"
-"\n"
+"color: black\n"
 "\n"
 "}")
         self.Titulo.setAlignment(QtCore.Qt.AlignCenter)
@@ -138,6 +138,8 @@ class Ui_MainWindow(object):
         self.labelDica.setGeometry(QtCore.QRect(650, 130, 51, 31))
         self.labelDica.setStyleSheet("QLabel{\n"
 "font-size: 16px;\n"
+"font: bold;\n"
+"font-family: Comic Neue;\n"
 "\n"
 "}")
         self.labelDica.setAlignment(QtCore.Qt.AlignCenter)
@@ -151,6 +153,8 @@ class Ui_MainWindow(object):
         self.anoLabel = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.anoLabel.setStyleSheet("QLabel{\n"
 "font-size: 14px;\n"
+"font: bold;\n"
+"font-family: Comic Neue;\n"
 "\n"
 "}")
         self.anoLabel.setObjectName("anoLabel")
@@ -158,6 +162,8 @@ class Ui_MainWindow(object):
         self.motorLabel = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.motorLabel.setStyleSheet("QLabel{\n"
 "font-size: 14px;\n"
+"font: bold;\n"
+"font-family: Comic Neue;\n"
 "\n"
 "}")
         self.motorLabel.setObjectName("motorLabel")
@@ -165,6 +171,8 @@ class Ui_MainWindow(object):
         self.potenciaLabel = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.potenciaLabel.setStyleSheet("QLabel{\n"
 "font-size: 14px;\n"
+"font: bold;\n"
+"font-family: Comic Neue;\n"
 "\n"
 "}")
         self.potenciaLabel.setObjectName("potenciaLabel")
@@ -172,6 +180,8 @@ class Ui_MainWindow(object):
         self.tracaoLabel = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.tracaoLabel.setStyleSheet("QLabel{\n"
 "font-size: 14px;\n"
+"font: bold;\n"
+"font-family: Comic Neue;\n"
 "\n"
 "}")
         self.tracaoLabel.setObjectName("tracaoLabel")
@@ -186,6 +196,27 @@ class Ui_MainWindow(object):
 "}")
         self.pushDica.setText("")
         self.pushDica.setObjectName("pushDica")
+        self.labelAcabouDicas = QtWidgets.QLabel(self.centralwidget)
+        self.labelAcabouDicas.setGeometry(QtCore.QRect(580, 500, 201, 41))
+        self.labelAcabouDicas.setStyleSheet("QLabel{\n"
+"font-size: 14px;\n"
+"\n"
+"\n"
+"}")
+        self.labelAcabouDicas.setText("")
+        self.labelAcabouDicas.setAlignment(QtCore.Qt.AlignCenter)
+        self.labelAcabouDicas.setObjectName("labelAcabouDicas")
+        self.acertouErrou = QtWidgets.QLabel(self.centralwidget)
+        self.acertouErrou.setGeometry(QtCore.QRect(30, 500, 121, 61))
+        self.acertouErrou.setStyleSheet("QLabel{\n"
+"font-size: 16px;\n"
+"font: bold;\n"
+"font-family: Comic Neue;\n"
+"\n"
+"}")
+        self.acertouErrou.setText("")
+        self.acertouErrou.setAlignment(QtCore.Qt.AlignCenter)
+        self.acertouErrou.setObjectName("acertouErrou")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")

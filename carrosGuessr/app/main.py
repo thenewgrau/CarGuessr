@@ -1,6 +1,8 @@
 import os
 import sys
-import pymysql
+import json
+import random
+import time
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtGui import QPixmap
 from PyQt5.uic import loadUi
@@ -9,25 +11,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 telaPrincipalUI = os.path.join(BASE_DIR, "..", "design", "telaPrincipal.ui")
 carGuesserUI = os.path.join(BASE_DIR, "..", "design", "CarGuesser.ui")
 
-db_config = {
-    "host": "localhost",  
-    "user": "root",       
-    "password": "",      
-    "database": "carguessr" 
-}
-
-def conectar_banco():
-    try:
-        connection = pymysql.connect(
-            host=db_config["host"],
-            user=db_config["user"],
-            password=db_config["password"],
-            database=db_config["database"]
-        )
-        return connection
-    except pymysql.MySQLError as e:
-        print(f"Erro ao conectar ao banco de dados: {e}")
-        return None
 
 class TelaPrincipal(QMainWindow):
     def __init__(self, tela_anterior):
@@ -35,91 +18,112 @@ class TelaPrincipal(QMainWindow):
         loadUi(telaPrincipalUI, self)
 
         self.tela_anterior = tela_anterior
-        self.voltar.clicked.connect(self.voltarla)
-        self.connection = conectar_banco()
-        self.carro_atual = None
-
-        self.confirmar.clicked.connect(self.verificar_palpite)
-        self.desistir.clicked.connect(self.desistirAgora)
-        self.pushDica.clicked.connect(self.mostrar_dica)
+        self.voltar.clicked.connect(self.voltarTelaInicial)
+        self.pushDica.clicked.connect(self.mostrarDica)
+        self.confirmar.clicked.connect(self.tentativaDoRuim)
+        self.desistir.clicked.connect(self.desistirImediatamente)
+        self.carroAtual = None
 
         self.dica_index = 0
-        self.novo_carro()
+        self.tentativa = 1
+        self.novoCarro()
 
-    def novo_carro(self):
+    def carregarCarros(self):
+        caminhoArquivo = os.path.join(BASE_DIR, "..", "db", "dadosCarGuessr.json")
+        
+        try:
+            with open(caminhoArquivo, 'r') as f:
+                dados = json.load(f)
+                # for carro in dados:
+                #     print(f"Nome: {carro['modelo']}")
+                #     print(f"Ano: {carro['ano']}")
+                #     print(f"Motor: {carro['motor']}")
+                #     print(f"Potência: {carro['potencia']}")
+                #     print(f"Tração: {carro['tracao']}")
+                #     print(f"Imagem: {carro['imagem']}")
+                #     print("-" * 40)
+                    
+                return dados                
+            
+        except FileNotFoundError:
+            print("Arquivo JSON não encontrado.")
+            return []
+
+    def buscarCarroAleatorio(self):
+        carros = self.carregarCarros()
+        if carros:
+            carroAtual = random.choice(carros)
+            print(carroAtual)
+            print('-'*100)
+            return carroAtual
+        return None
+
+    
+    def novoCarro(self):
         self.anoLabel.setText("")
         self.motorLabel.setText("")
         self.potenciaLabel.setText("")
         self.tracaoLabel.setText("")
+        self.labelAcabouDicas.setText("")
         self.inputCarro.clear()
         self.dica_index = 0
 
+        self.carroAtual = self.buscarCarroAleatorio()
 
-        self.carro_atual = self.buscar_carro_aleatorio()
-
-        if self.carro_atual:
-            caminho_imagem = self.carro_atual['imagem']
-            print(f"Caminho da imagem: {caminho_imagem}")
-            pixmap = QPixmap(caminho_imagem)
-            self.imagemCarro.setPixmap(pixmap)
-            self.imagemCarro.setScaledContents(True)
+        if self.carroAtual:
+            caminho_imagem = self.carroAtual['imagem']
+            caminho_imagem_absoluto = os.path.join(BASE_DIR, caminho_imagem)
+            pixmap = QPixmap(caminho_imagem_absoluto)
+            
+            if not pixmap.isNull():
+                self.imagemCarro.setPixmap(pixmap)
+                self.imagemCarro.setScaledContents(True)
+            else:
+                print(f"Erro ao carregar a imagem de carro: {caminho_imagem_absoluto}")
         else:
-            self.labelDica.setText("Não foi possível carregar o carro.")
+            print("Não foi possível carregar o carro.")
 
-    def buscar_carro_aleatorio(self):
-        if not self.connection:
-            return None
-
-        try:
-            with self.connection.cursor() as cursor:
-                cursor.execute("SELECT * FROM carros LIMIT 1")
-                carro = cursor.fetchone()
-
-                if carro:
-                    return {
-                        "nome": carro[1],    
-                        "ano": carro[2],       
-                        "motor": carro[3],   
-                        "tracao": carro[4],    
-                        "potencia": carro[5],     
-                        "imagem": carro[6]       
-                    }
-                else:
-                    return None
-        except pymysql.MySQLError as e:
-            print(f"Erro ao buscar carro no banco de dados: {e}")
-            return None
-
-    def verificar_palpite(self):
-        palpite = self.inputCarro.text().strip().lower()
-        print(palpite)
-        nome_correto = self.carro_atual["nome"].lower()
-
-        if palpite == nome_correto:
-            self.tentativas.setText("✅ Acertou! Próximo carro...")
-            self.novo_carro()
-        else:
-            self.tentativas.setText("❌ Errou! Tente novamente ou peça uma dica.")
-
-    def mostrar_dica(self):
+    def mostrarDica(self):
         if self.dica_index == 0:
-            self.anoLabel.setText(f"🗓️ Ano: {self.carro_atual['ano']}")
+            self.anoLabel.setText(f"🗓️ Ano: {self.carroAtual['ano']}")
         elif self.dica_index == 1:
-            self.motorLabel.setText(f"🔧 Motor: {self.carro_atual['motor']}L")
+            self.motorLabel.setText(f"🔧 Motor: {self.carroAtual['motor']}L")
         elif self.dica_index == 2:
-            self.potenciaLabel.setText(f"🚀 Potência: {self.carro_atual['potencia']} CV")
+            self.potenciaLabel.setText(f"🚀 Potência: {self.carroAtual['potencia']} CV")
         elif self.dica_index == 3:
-            self.tracaoLabel.setText(f"🚗 Tração: {self.carro_atual['tracao']}")
+            self.tracaoLabel.setText(f"🚗 Tração: {self.carroAtual['tracao']}")
         else:
-            self.tentativas.setText("😅 Sem mais dicas...")
-        
+            self.labelAcabouDicas.setText("😅 Sem mais dicas...")
+
         self.dica_index += 1
 
-    def desistirAgora(self):
-        self.labelDica.setText(f"🚗 Era: {self.carro_atual['nome']}. Vamos pro próximo!")
-        self.novo_carro()
+    def tentativaDoRuim(self):
+        tentativa = self.inputCarro.text()
+        print(tentativa)
+        if tentativa == self.carroAtual['modelo']:
+            print("acertou")
+            self.acertouErrou.setText('ACERTOUUUU !!!') 
+            time.sleep(2)
+            self.tentativa = 1
+            self.buscarCarroAleatorio()
+            self.novoCarro()
+        
+        elif tentativa == '':
+            self.tentativas.setText('Escreva algo!')
+            self.acertouErrou.setText('Nem tentou...')
 
-    def voltarla(self):
+        elif tentativa != '' and tentativa != self.carroAtual['modelo']:
+            self.tentativas.setText(f"Tentativas: {self.tentativa}")    
+            self.tentativa += 1
+            print('errou')
+            self.acertouErrou.setText('Errou...')
+
+    def desistirImediatamente(self):
+        print(f"o carro passado era: {self.carroAtual['modelo']}")
+        self.buscarCarroAleatorio()
+        self.novoCarro()
+
+    def voltarTelaInicial(self):
         self.hide()
         self.tela_anterior.show()
 
