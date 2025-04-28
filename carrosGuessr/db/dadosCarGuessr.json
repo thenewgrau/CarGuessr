@@ -1,6 +1,6 @@
 [
   {
-    "modelo": "Chevrolet Tracker",
+    "modelo": "chevrolet tracker",
     "ano": 2021,
     "motor": "1.2",
     "potencia": 200.0,
@@ -8,7 +8,7 @@
     "imagem": "./../public/images/Chevrolet-Tracker.png"
   },
   {
-    "modelo": "Honda HR-V",
+    "modelo": "honda hr-v",
     "ano": 2020,
     "motor": "1.8",
     "potencia": 210.0,
@@ -16,7 +16,7 @@
     "imagem": "./../public/images/Honda-HR-V.png"
   },
   {
-    "modelo": "Ford EcoSport",
+    "modelo": "ford ecosport",
     "ano": 2019,
     "motor": "2.0",
     "potencia": 200.0,
@@ -24,7 +24,7 @@
     "imagem": "./../public/images/Ford-Ecosport.png"
   },
   {
-    "modelo": "Fiat Toro",
+    "modelo": "fiat toro",
     "ano": 2022,
     "motor": "2.0",
     "potencia": 210.0,
@@ -32,7 +32,7 @@
     "imagem": "./../public/images/Fiat-Toro.png"
   },
   {
-    "modelo": "Peugeot 2008",
+    "modelo": "peugeot 2008",
     "ano": 2021,
     "motor": "1.6",
     "potencia": 220.0,
@@ -40,7 +40,7 @@
     "imagem": "./../public/images/Peugeot-2008.png"
   },
   {
-    "modelo": "Mercedes-Benz GLA",
+    "modelo": "mercedes-benz gla",
     "ano": 2023,
     "motor": "2.0",
     "potencia": 250.0,
@@ -48,7 +48,7 @@
     "imagem": "./../public/images/Mercedes-Benz-GLA.png"
   },
   {
-    "modelo": "Volkswagen T-Cross",
+    "modelo": "volkswagen t-cross",
     "ano": 2021,
     "motor": "1.4",
     "potencia": 210.0,
@@ -56,7 +56,7 @@
     "imagem": "./../public/images/Volkswagen-T-Cross.png"
   },
   {
-    "modelo": "Toyota RAV4",
+    "modelo": "toyota rav4",
     "ano": 2022,
     "motor": "2.5",
     "potencia": 220.0,
@@ -64,7 +64,7 @@
     "imagem": "./../public/images/Toyota-Rav4.png"
   },
   {
-    "modelo": "Hyundai Creta",
+    "modelo": "hyundai creta",
     "ano": 2021,
     "motor": "1.6",
     "potencia": 200.0,
@@ -72,7 +72,7 @@
     "imagem": "./../public/images/Hyundai-Creta.png"
   },
   {
-    "modelo": "Jeep Renegade",
+    "modelo": "jeep renegade",
     "ano": 2020,
     "motor": "2.0",
     "potencia": 210.0,
@@ -80,7 +80,7 @@
     "imagem": "./../public/images/Jeep-Renegade.png"
   },
   {
-    "modelo": "Nissan Frontier",
+    "modelo": "nissan frontier",
     "ano": 2023,
     "motor": "2.3",
     "potencia": 210.0,
@@ -88,7 +88,7 @@
     "imagem": "./../public/images/Nissan-Frontier.png"
   },
   {
-    "modelo": "BMW X1",
+    "modelo": "bmw x1",
     "ano": 2022,
     "motor": "2.0",
     "potencia": 240.0,
@@ -96,7 +96,7 @@
     "imagem": "./../public/images/BMW-X1.png"
   },
   {
-    "modelo": "Mazda CX-5",
+    "modelo": "mazda cx-5",
     "ano": 2021,
     "motor": "2.5",
     "potencia": 210.0,
@@ -104,7 +104,7 @@
     "imagem": "./../public/images/Mazda-CX-5.png"
   },
   {
-    "modelo": "Kia Seltos",
+    "modelo": "kia seltos",
     "ano": 2020,
     "motor": "1.6",
     "potencia": 205.0,
@@ -112,7 +112,7 @@
     "imagem": "./../public/images/Kia-Seltos.png"
   },
   {
-    "modelo": "Renault Kwid",
+    "modelo": "renault kwid",
     "ano": 2019,
     "motor": "1.0",
     "potencia": 160.0,
@@ -120,7 +120,7 @@
     "imagem": "./../public/images/Renault-Kwid.png"
   },
   {
-    "modelo": "Toyota Corolla Cross",
+    "modelo": "toyota corolla cross",
     "ano": 2022,
     "motor": "2.0",
     "potencia": 200.0,
@@ -128,7 +128,7 @@
     "imagem": "./../public/images/Toyota-Corolla-Cross.png"
   },
   {
-    "modelo": "Volkswagen Nivus",
+    "modelo": "volkswagen nivus",
     "ano": 2020,
     "motor": "1.0",
     "potencia": 190.0,
@@ -136,7 +136,7 @@
     "imagem": "./../public/images/Volkswagen-Nivus.png"
   },
   {
-    "modelo": "Ford Ranger",
+    "modelo": "ford ranger",
     "ano": 2021,
     "motor": "3.2",
     "potencia": 210.0,
@@ -144,7 +144,7 @@
     "imagem": "./../public/images/Ford-Ranger.png"
   },
   {
-    "modelo": "Chevrolet Spin",
+    "modelo": "chevrolet spin",
     "ano": 2020,
     "motor": "1.8",
     "potencia": 185.0,
@@ -152,7 +152,7 @@
     "imagem": "./../public/images/Chevrolet-Spin.png"
   },
   {
-    "modelo": "Honda Civic",
+    "modelo": "honda civic",
     "ano": 2021,
     "motor": "1.5",
     "potencia": 210.0,
@@ -160,7 +160,7 @@
     "imagem": "./../public/images/Honda-Civic.png"
   },
   {
-    "modelo": "Chrysler Pacifica",
+    "modelo": "chrysler pacifica",
     "ano": 2022,
     "motor": "3.6",
     "potencia": 200.0,
@@ -168,7 +168,7 @@
     "imagem": "./../public/images/Chrysler-Pacifica.png"
   },
   {
-    "modelo": "Ram 1500",
+    "modelo": "ram 1500",
     "ano": 2023,
     "motor": "5.7",
     "potencia": 220.0,
@@ -176,15 +176,15 @@
     "imagem": "./../public/images/Ram-1500.png"
   },
   {
-    "modelo": "Dodge Charger",
+    "modelo": "dodge charger",
     "ano": 2021,
     "motor": "6.2",
     "potencia": 270.0,
     "tracao": "Traseira",
-    "imagem": "./../public/images/Dodge-Charger.jpg"
+    "imagem": "./../public/images/Dodge-Charger.png"
   },
   {
-    "modelo": "Chevrolet Camaro",
+    "modelo": "chevrolet camaro",
     "ano": 2022,
     "motor": "6.2",
     "potencia": 250.0,
@@ -192,7 +192,7 @@
     "imagem": "./../public/images/Chevrolet-Camaro.png"
   },
   {
-    "modelo": "Ford Mustang",
+    "modelo": "ford mustang",
     "ano": 2022,
     "motor": "5.0",
     "potencia": 260.0,
@@ -200,7 +200,7 @@
     "imagem": "./../public/images/Ford-Mustang.png"
   },
   {
-    "modelo": "Nissan 370Z",
+    "modelo": "nissan 370z",
     "ano": 2021,
     "motor": "3.7",
     "potencia": 250.0,
@@ -208,7 +208,7 @@
     "imagem": "./../public/images/Nissan-370Z.png"
   },
   {
-    "modelo": "Porsche Cayenne",
+    "modelo": "porsche cayenne",
     "ano": 2022,
     "motor": "3.0",
     "potencia": 250.0,
@@ -216,7 +216,7 @@
     "imagem": "./../public/images/Porsche-Cayenne.png"
   },
   {
-    "modelo": "Audi Q5",
+    "modelo": "audi q5",
     "ano": 2022,
     "motor": "2.0",
     "potencia": 240.0,
@@ -224,7 +224,7 @@
     "imagem": "./../public/images/Audi-Q5.png"
   },
   {
-    "modelo": "BMW X5",
+    "modelo": "bmw x5",
     "ano": 2021,
     "motor": "3.0",
     "potencia": 250.0,
@@ -232,7 +232,7 @@
     "imagem": "./../public/images/BMW-X5.png"
   },
   {
-    "modelo": "Land Rover Discovery",
+    "modelo": "land rover discovery",
     "ano": 2023,
     "motor": "3.0",
     "potencia": 230.0,
@@ -240,7 +240,7 @@
     "imagem": "./../public/images/Land-Rover-Discovery.png"
   },
   {
-    "modelo": "Volvo XC60",
+    "modelo": "volvo xc60",
     "ano": 2021,
     "motor": "2.0",
     "potencia": 220.0,
@@ -248,7 +248,7 @@
     "imagem": "./../public/images/Volvo-XC60.png"
   },
   {
-    "modelo": "Lexus RX",
+    "modelo": "lexus rx",
     "ano": 2022,
     "motor": "3.5",
     "potencia": 240.0,
@@ -256,7 +256,7 @@
     "imagem": "./../public/images/Lexus-RX.png"
   },
   {
-    "modelo": "Toyota Land Cruiser",
+    "modelo": "toyota land cruiser",
     "ano": 2021,
     "motor": "4.0",
     "potencia": 230.0,
@@ -264,7 +264,7 @@
     "imagem": "./../public/images/Toyota-Land-Cruiser.png"
   },
   {
-    "modelo": "Ford F-150",
+    "modelo": "ford f-150",
     "ano": 2022,
     "motor": "5.0",
     "potencia": 220.0,
@@ -272,7 +272,7 @@
     "imagem": "./../public/images/Ford-F-150.png"
   },
   {
-    "modelo": "Chevrolet Silverado",
+    "modelo": "chevrolet silverado",
     "ano": 2023,
     "motor": "6.2",
     "potencia": 230.0,
@@ -280,7 +280,7 @@
     "imagem": "./../public/images/Chevrolet-Silverado.png"
   },
   {
-    "modelo": "GMC Sierra",
+    "modelo": "gmc sierra",
     "ano": 2022,
     "motor": "5.3",
     "potencia": 220.0,
@@ -288,7 +288,7 @@
     "imagem": "./../public/images/GMC-Sierra.png"
   },
   {
-    "modelo": "Ram 2500",
+    "modelo": "ram 2500",
     "ano": 2023,
     "motor": "6.7",
     "potencia": 210.0,
@@ -296,7 +296,7 @@
     "imagem": "./../public/images/Ram-2500.png"
   },
   {
-    "modelo": "Ford Bronco",
+    "modelo": "ford bronco",
     "ano": 2023,
     "motor": "2.7",
     "potencia": 220.0,
@@ -304,7 +304,7 @@
     "imagem": "./../public/images/Ford-Bronco.png"
   },
   {
-    "modelo": "Hyundai Tucson",
+    "modelo": "hyundai tucson",
     "ano": 2022,
     "motor": "2.0",
     "potencia": 200.0,
@@ -312,7 +312,7 @@
     "imagem": "./../public/images/Hyundai-Tucson.png"
   },
   {
-    "modelo": "Kia Sorento",
+    "modelo": "kia sorento",
     "ano": 2021,
     "motor": "3.5",
     "potencia": 210.0,
@@ -320,7 +320,7 @@
     "imagem": "./../public/images/Kia-Sorento.png"
   },
   {
-    "modelo": "Jeep Gladiator",
+    "modelo": "jeep gladiator",
     "ano": 2020,
     "motor": "3.6",
     "potencia": 210.0,
@@ -328,7 +328,7 @@
     "imagem": "./../public/images/Jeep-Gladiator.png"
   },
   {
-    "modelo": "Chrysler 300",
+    "modelo": "chrysler 300",
     "ano": 2022,
     "motor": "3.6",
     "potencia": 220.0,
@@ -336,7 +336,7 @@
     "imagem": "./../public/images/Chrysler-300.png"
   },
   {
-    "modelo": "BMW M4",
+    "modelo": "bmw m4",
     "ano": 2022,
     "motor": "3.0",
     "potencia": 280.0,
@@ -344,7 +344,7 @@
     "imagem": "./../public/images/BMW-M4.png"
   },
   {
-    "modelo": "Audi RS7",
+    "modelo": "audi rs7",
     "ano": 2023,
     "motor": "4.0",
     "potencia": 300.0,
@@ -352,7 +352,7 @@
     "imagem": "./../public/images/Audi-RS7.png"
   },
   {
-    "modelo": "Mercedes-AMG G63",
+    "modelo": "mercedes-amg g63",
     "ano": 2023,
     "motor": "4.0",
     "potencia": 250.0,
@@ -360,7 +360,7 @@
     "imagem": "./../public/images/Mercedes-AMG-G63"
   },
   {
-    "modelo": "Tesla Model X",
+    "modelo": "tesla model x",
     "ano": 2022,
     "motor": "Elétrico",
     "potencia": 250.0,
@@ -368,7 +368,7 @@
     "imagem": "./../public/images/Tesla-Model-X.png"
   },
   {
-    "modelo": "Rivian R1T",
+    "modelo": "rivian r1t",
     "ano": 2023,
     "motor": "Elétrico",
     "potencia": 240.0,
@@ -376,7 +376,7 @@
     "imagem": "./../public/images/Rivian-R1T.png"
   },
   {
-    "modelo": "Lucid Air",
+    "modelo": "lucid air",
     "ano": 2023,
     "motor": "Elétrico",
     "potencia": 260.0,
@@ -384,7 +384,7 @@
     "imagem": "./../public/images/Lucid-Air.png"
   },
   {
-    "modelo": "Ford Mustang Mach-E",
+    "modelo": "ford mustang mach-e",
     "ano": 2022,
     "motor": "Elétrico",
     "potencia": 230.0,
@@ -392,7 +392,7 @@
     "imagem": "./../public/images/Ford-Mustang-Mach-E.png"
   },
   {
-    "modelo": "BMW iX",
+    "modelo": "bmw ix",
     "ano": 2023,
     "motor": "Elétrico",
     "potencia": 250.0,

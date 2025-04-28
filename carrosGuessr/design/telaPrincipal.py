@@ -207,7 +207,7 @@ class Ui_MainWindow(object):
         self.labelAcabouDicas.setAlignment(QtCore.Qt.AlignCenter)
         self.labelAcabouDicas.setObjectName("labelAcabouDicas")
         self.acertouErrou = QtWidgets.QLabel(self.centralwidget)
-        self.acertouErrou.setGeometry(QtCore.QRect(30, 500, 121, 61))
+        self.acertouErrou.setGeometry(QtCore.QRect(20, 130, 161, 61))
         self.acertouErrou.setStyleSheet("QLabel{\n"
 "font-size: 16px;\n"
 "font: bold;\n"

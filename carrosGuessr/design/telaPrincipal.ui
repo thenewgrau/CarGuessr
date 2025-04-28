@@ -441,9 +441,9 @@ font-size: 14px;
    <widget class="QLabel" name="acertouErrou">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>500</y>
-      <width>121</width>
+      <x>20</x>
+      <y>130</y>
+      <width>161</width>
       <height>61</height>
      </rect>
     </property>
